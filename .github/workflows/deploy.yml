@@ -40,3 +40,4 @@ jobs:
         docker build -t $IMAGE_URI .
         docker push $IMAGE_URI
         echo "Pushed: $IMAGE_URI"
+        
